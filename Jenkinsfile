@@ -8,7 +8,7 @@ node {
                         sh """
                         ls -lh
                         chmod +x hello-world.sh
-                        hello-world.sh
+                        ./hello-world.sh
                         """
                     }
                 }
